@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Medium"; 
+    src: url("./fonts/medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+.container-hud
+{
+
+}
+.time-icon
+{
+    background: url('images/time.png');
+    width: 19px;
+    height: 19px;
+    left:1400px;
+    top:50px;
+    position: relative;
+
+}
+.text
+{
+    display: inline-block;
+    color:white;
+    font-family: Medium;
+    width: 100px;
+    position: relative;
+    left: 1430px;
+    top:20px;
+
+}
+.logo-icon
+{
+    background: url('images/logo.png');
+    width: 53px;
+    height: 53px;
+    position: relative;
+    left:1550px;
+    top:-30px;
+}
+.icon-pers
+{
+    background: url('images/user.png');
+    width: 16px;
+    height: 20px;
+    left:1590px;
+    position: relative;
+}
+.icon-hp
+{
+    background: url('images/heart.png');
+    width: 29px;
+    height: 24px;
+    left:1585px;
+    position: relative;
+    top:-10px;
+}
+.icon-dollar
+{
+    background: url('images/dollar.png');
+    width: 30px;
+    height: 30px;
+    left:1385px;
+    position: relative;
+    top:-10px;
+}
+
+progress.styled {
+	display: block;
+	border-radius: 8px;
+	width: 140px;
+	height: 5px;
+	position: relative;
+	left: 1430px;
+	top: -25px;
+  }
+
+  progress.styled::-webkit-progress-bar {
+      background-color: rgb(82, 82, 82);
+      border-radius: 8px;
+  }
+  progress.styled::-webkit-progress-value {
+      background-color: rgb(204, 62, 62);
+      background-image: linear-gradient(rgb(204, 62, 62), rgb(204, 62, 62));
+      border-radius: 8px;
+  }
+  progress.styled::-moz-progress-bar {
+      background-color: rgb(204, 62, 62);
+      background-image: linear-gradient(rgb(204, 62, 62), rgb(204, 62, 62));
+      border-radius: 8px;
+  }
+
